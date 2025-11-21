@@ -1,1 +1,16 @@
 /* Denna fil skall innehålla din CSS kod */
+#wrapper{
+    height: 200vh;
+    width: 100%;
+    grid-template-areas: 
+    'h h h h'
+    'i i b b'
+    'i i b b'
+    'b1 b1 o m'
+    'b1 b1 mi k';
+    grid-template-columns: repeat(1fr 4);
+    grid-template-rows: 1fr 1fr 3fr 3fr;
+background-color: #b58b63;
+display: grid;
+}
+
