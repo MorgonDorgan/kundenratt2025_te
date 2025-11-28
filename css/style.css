@@ -21,6 +21,12 @@ display: grid;
     margin: 0.5cm;
     background-color: #f6efe8;
     border-width: 0.15cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 #info{
@@ -35,12 +41,9 @@ display: grid;
 
 #bild{
     grid-area: b;
-    border-style: solid;
     border-radius: 0.3cm;
-    border-color: #a5b58d;
     margin: 0.5cm;
     background-color: #f6efe8;
-    border-width: 0.15cm;
     background-image: url("../img/photo-coffeshop.avif");
     background-size: cover;
     background-position: center;
@@ -49,12 +52,13 @@ display: grid;
 
 #bild1{
     grid-area: b1;
-    border-style: solid;
     border-radius: 0.3cm;
-    border-color: #a5b58d;
     margin: 0.5cm;
     background-color: #f6efe8;
-    border-width: 0.15cm;
+    background-image: url("../img/photo-cafebackground.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #oppettider{
