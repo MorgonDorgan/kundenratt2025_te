@@ -1,6 +1,6 @@
 /* Denna fil skall innehålla din CSS kod */
 #wrapper{
-    height: 200vh;
+    height: 148vh;
     width: 100%;
     grid-template-areas: 
     'h h h h'
@@ -9,7 +9,7 @@
     'b1 b1 o m'
     'b1 b1 mi k';
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr 2fr;
 background-color: #b58b63;
 display: grid;
 }
@@ -18,6 +18,9 @@ display: grid;
     grid-area: h;
     border-style: solid;
     border-color: #a5b58d;
+    margin: 0.5cm;
+    background-color: #f6efe8;
+    border-width: 0.15cm;
 }
 
 #info{
@@ -25,6 +28,9 @@ display: grid;
     border-style: solid;
     border-radius: 0.2cm;
     border-color: #a5b58d;
+    margin: 0.5cm;
+    background-color: #f6efe8;
+    border-width: 0.15cm;
 }
 
 #bild{
@@ -32,6 +38,9 @@ display: grid;
     border-style: solid;
     border-radius: 0.2cm;
     border-color: #a5b58d;
+    margin: 0.5cm;
+    background-color: #f6efe8;
+    border-width: 0.15cm;
 }
 
 #bild1{
@@ -39,6 +48,9 @@ display: grid;
     border-style: solid;
     border-radius: 0.2cm;
     border-color: #a5b58d;
+    margin: 0.5cm;
+    background-color: #f6efe8;
+    border-width: 0.15cm;
 }
 
 #oppettider{
@@ -46,6 +58,9 @@ display: grid;
     border-style: solid;
     border-radius: 0.2cm;
     border-color: #a5b58d;
+    margin: 0.5cm;
+    background-color: #f6efe8;
+    border-width: 0.15cm;
 }
 
 #meny{
@@ -53,6 +68,9 @@ display: grid;
     border-style: solid;
     border-radius: 0.2cm;
     border-color: #a5b58d;
+    margin: 0.5cm;
+    background-color: #f6efe8;
+    border-width: 0.15cm;
 }
 
 #misc{
@@ -60,6 +78,9 @@ display: grid;
     border-style: solid;
     border-radius: 0.2cm;
     border-color: #a5b58d;
+    margin: 0.5cm;
+    background-color: #f6efe8;
+    border-width: 0.15cm;
 }
 
 #kontakt{
@@ -67,4 +88,7 @@ display: grid;
     border-style: solid;
     border-radius: 0.2cm;
     border-color: #a5b58d;
+    margin: 0.5cm;
+    background-color: #f6efe8;
+    border-width: 0.15cm;
 }
