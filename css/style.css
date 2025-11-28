@@ -41,6 +41,10 @@ display: grid;
     margin: 0.5cm;
     background-color: #f6efe8;
     border-width: 0.15cm;
+    background-image: url("../img/photo-coffeshop.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #bild1{
