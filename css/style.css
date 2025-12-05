@@ -69,6 +69,7 @@ display: grid;
     margin: 0.5cm;
     background-color: #f6efe8;
     border-width: 0.15cm;
+    list-style-type: none;
 }
 
 #meny{
@@ -79,6 +80,9 @@ display: grid;
     margin: 0.5cm;
     background-color: #f6efe8;
     border-width: 0.15cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #misc{
