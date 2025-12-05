@@ -6,13 +6,13 @@
     "a a"
     "b c"
     "d e";
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 5fr;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 1fr 2fr 2fr;
 background-color: #b58b63;
 display: grid;
 }
 
-.header {
+#header {
     display: flex;
     background-color: #f6efe8;
     grid-area: a;
@@ -20,7 +20,63 @@ display: grid;
     justify-content: space-around;
   }
   
-  .header div {
+  #header div {
+    background-color: #a5b58d;
+    font-size: 22px;
+    width: 750px;
+    justify-items: center;
+  }
+
+  #fika {
+    display: flex;
+    background-color: #f6efe8;
+    grid-area: b;
+
+  }
+
+  #fika section {
+    background-color: #a5b58d;
+    font-size: 22px;
+    width: 750px;
+    justify-items: center;
+  }
+
+  #dryck {
+    display: flex;
+    background-color: #f6efe8;
+    grid-area: c;
+
+  }
+
+  #dryck section {
+    background-color: #a5b58d;
+    font-size: 22px;
+    width: 750px;
+    justify-items: center;
+  }
+
+  #mat {
+    display: flex;
+    background-color: #f6efe8;
+    grid-area: d;
+
+  }
+
+  #mat section {
+    background-color: #a5b58d;
+    font-size: 22px;
+    width: 750px;
+    justify-items: center;
+  }
+
+  #special {
+    display: flex;
+    background-color: #f6efe8;
+    grid-area: e;
+
+  }
+
+  #special section {
     background-color: #a5b58d;
     font-size: 22px;
     width: 750px;
