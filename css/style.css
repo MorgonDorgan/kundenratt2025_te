@@ -27,6 +27,7 @@ display: grid;
     position: sticky;
     top: 0;
     z-index: 10;
+    color: #a5b58d;
 }
 
 #info{
@@ -37,6 +38,7 @@ display: grid;
     margin: 0.5cm;
     background-color: #f6efe8;
     border-width: 0.15cm;
+    color: #a5b58d;
 }
 
 #bild{
@@ -70,6 +72,7 @@ display: grid;
     background-color: #f6efe8;
     border-width: 0.15cm;
     list-style-type: none;
+    color: #a5b58d;
 }
 
 #meny{
@@ -83,7 +86,12 @@ display: grid;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #a5b58d;
 }
+
+a:link {
+    color: #a5b58d;
+    }
 
 #misc{
     grid-area: mi;
@@ -93,6 +101,7 @@ display: grid;
     margin: 0.5cm;
     background-color: #f6efe8;
     border-width: 0.15cm;
+    color: #a5b58d;
 }
 
 #kontakt{
@@ -103,5 +112,5 @@ display: grid;
     margin: 0.5cm;
     background-color: #f6efe8;
     border-width: 0.15cm;
-
+    color: #a5b58d;
 }

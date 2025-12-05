@@ -1,0 +1,28 @@
+
+#wrapper{
+    height: 98vh;
+    width: 100%;
+    grid-template-areas:
+    "a a"
+    "b c"
+    "d e";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 5fr;
+background-color: #b58b63;
+display: grid;
+}
+
+.header {
+    display: flex;
+    background-color: #f6efe8;
+    grid-area: a;
+    align-content: center;
+    justify-content: space-around;
+  }
+  
+  .header div {
+    background-color: #a5b58d;
+    font-size: 22px;
+    width: 750px;
+    justify-items: center;
+  }
