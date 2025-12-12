@@ -1,13 +1,13 @@
 
 #wrapper{
-    height: 98vh;
+    height: 148vh;
     width: 100%;
     grid-template-areas:
     "a a"
     "b c"
     "d e";
     grid-template-columns: repeat(2, 50%);
-    grid-template-rows: 1fr 2fr 2fr;
+    grid-template-rows: 1fr 3fr 3fr;
 background-color: #b58b63;
 display: grid;
 }
@@ -18,6 +18,9 @@ display: grid;
     grid-area: a;
     align-content: center;
     justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 10;
   }
   
   #header div {
@@ -31,54 +34,69 @@ display: grid;
     display: flex;
     background-color: #a5b58d;
     grid-area: b;
-
+    flex-wrap: wrap;
   }
 
   #fika section {
     background-color: #f6efe8;
     font-size: 22px;
-    width: 750px;
     justify-items: center;
+    width: 110px;
+    height: 110px;
+    margin: 1cm;
+    flex-wrap: wrap;
   }
 
   #dryck {
     display: flex;
     background-color: #a5b58d;
     grid-area: c;
+    flex-wrap: wrap;
 
   }
 
   #dryck section {
     background-color: #f6efe8;
     font-size: 22px;
-    width: 750px;
+    width: 110px;
     justify-items: center;
+    flex-wrap: wrap;
+    margin: 1cm;
+    height: 110px;
   }
 
   #mat {
     display: flex;
     background-color: #a5b58d;
     grid-area: d;
+    flex-wrap: wrap;
 
   }
 
   #mat section {
     background-color: #f6efe8;
     font-size: 22px;
-    width: 750px;
+    width: 110px;
     justify-items: center;
+    flex-wrap: wrap;
+    margin: 1cm;
+    height: 110px;
   }
 
   #special {
     display: flex;
     background-color: #a5b58d;
     grid-area: e;
+    flex-wrap: wrap;
 
   }
 
   #special section {
     background-color: #f6efe8;
     font-size: 22px;
-    width: 750px;
+    width: 110px;
     justify-items: center;
+    flex-wrap: wrap;
+    margin: 1cm;
+    height: 110px;
   }
