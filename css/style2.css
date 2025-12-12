@@ -21,7 +21,7 @@ display: grid;
   }
   
   #header div {
-    background-color: #a5b58d;
+    background-color: #f6efe8;
     font-size: 22px;
     width: 750px;
     justify-items: center;
@@ -29,13 +29,13 @@ display: grid;
 
   #fika {
     display: flex;
-    background-color: #f6efe8;
+    background-color: #a5b58d;
     grid-area: b;
 
   }
 
   #fika section {
-    background-color: #a5b58d;
+    background-color: #f6efe8;
     font-size: 22px;
     width: 750px;
     justify-items: center;
@@ -43,13 +43,13 @@ display: grid;
 
   #dryck {
     display: flex;
-    background-color: #f6efe8;
+    background-color: #a5b58d;
     grid-area: c;
 
   }
 
   #dryck section {
-    background-color: #a5b58d;
+    background-color: #f6efe8;
     font-size: 22px;
     width: 750px;
     justify-items: center;
@@ -57,13 +57,13 @@ display: grid;
 
   #mat {
     display: flex;
-    background-color: #f6efe8;
+    background-color: #a5b58d;
     grid-area: d;
 
   }
 
   #mat section {
-    background-color: #a5b58d;
+    background-color: #f6efe8;
     font-size: 22px;
     width: 750px;
     justify-items: center;
@@ -71,13 +71,13 @@ display: grid;
 
   #special {
     display: flex;
-    background-color: #f6efe8;
+    background-color: #a5b58d;
     grid-area: e;
 
   }
 
   #special section {
-    background-color: #a5b58d;
+    background-color: #f6efe8;
     font-size: 22px;
     width: 750px;
     justify-items: center;
