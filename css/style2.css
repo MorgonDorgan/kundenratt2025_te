@@ -35,16 +35,33 @@ display: grid;
     background-color: #a5b58d;
     grid-area: b;
     flex-wrap: wrap;
+    flex-direction: column;
   }
 
   #fika section {
     background-color: #f6efe8;
     font-size: 22px;
     justify-items: center;
-    width: 110px;
-    height: 110px;
+    width: 130px;
+    height: 130px;
     margin: 1cm;
     flex-wrap: wrap;
+  }
+
+  #truth {
+    display: flex;       
+    flex-direction: row;  
+    flex-wrap: wrap;      
+    gap: 10px;
+  }
+  
+  #truth div {
+    width: 130px;
+    height: 130px;
+    background-color: #f6efe8;
+    display: flex;      
+    align-items: center;
+    justify-content: center;
   }
 
   #dryck {
@@ -58,11 +75,27 @@ display: grid;
   #dryck section {
     background-color: #f6efe8;
     font-size: 22px;
-    width: 110px;
+    width: 130px;
     justify-items: center;
     flex-wrap: wrap;
     margin: 1cm;
-    height: 110px;
+    height: 130px;
+  }
+
+  #truth2 {
+    display: flex;       
+    flex-direction: row;  
+    flex-wrap: wrap;      
+    gap: 10px;
+  }
+  
+  #truth2 div {
+    width: 130px;
+    height: 130px;
+    background-color: #f6efe8;
+    display: flex;      
+    align-items: center;
+    justify-content: center;
   }
 
   #mat {
@@ -76,11 +109,27 @@ display: grid;
   #mat section {
     background-color: #f6efe8;
     font-size: 22px;
-    width: 110px;
+    width: 130px;
     justify-items: center;
     flex-wrap: wrap;
     margin: 1cm;
-    height: 110px;
+    height: 130px;
+  }
+
+  #truth3 {
+    display: flex;       
+    flex-direction: row;  
+    flex-wrap: wrap;      
+    gap: 10px;
+  }
+  
+  #truth3 div {
+    width: 130px;
+    height: 130px;
+    background-color: #f6efe8;
+    display: flex;      
+    align-items: center;
+    justify-content: center;
   }
 
   #special {
@@ -94,9 +143,29 @@ display: grid;
   #special section {
     background-color: #f6efe8;
     font-size: 22px;
-    width: 110px;
+    width: 130px;
     justify-items: center;
     flex-wrap: wrap;
     margin: 1cm;
-    height: 110px;
+    height: 130px;
+  }
+
+  #truth4 {
+    display: flex;       
+    flex-direction: row;  
+    flex-wrap: wrap;      
+    gap: 10px;
+  }
+  
+  #truth4 div {
+    width: 130px;
+    height: 130px;
+    background-color: #f6efe8;
+    display: flex;      
+    align-items: center;
+    justify-content: center;
+  }
+
+  h2 {
+    text-align: center;
   }
