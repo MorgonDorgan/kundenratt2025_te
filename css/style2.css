@@ -1,19 +1,35 @@
 
-#wrapper{
-    height: 148vh;
+  section h2 {
+    margin: 20px;
+    }
+
+
+  .fika,
+  .dryck,
+  .mat,
+  .special {
+  flex-direction: column;
+  }
+
+  body {
+  margin: 0;
+  }
+
+  #wrapper{
+    height: 100vh;
     width: 100%;
     grid-template-areas:
     "a a"
     "b c"
     "d e";
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 3fr 3fr;
-background-color: #b58b63;
-display: grid;
-align-items: start;
-}
+    grid-template-rows: auto 1fr 1fr;
+  background-color: #b58b63;
+  display: grid;
+  align-items: start;
+  }
 
-#header {
+  #header {
     display: flex;
     background-color: #f6efe8;
     grid-area: a;
@@ -36,28 +52,26 @@ align-items: start;
     background-color: #a5b58d;
     grid-area: b;
     flex-wrap: wrap;
-    flex-direction: column;
     align-self: stretch;
   }
 
-  .fika section {
-    background-color: #f6efe8;
-    font-size: 22px;
-    justify-items: center;
-    width: 130px;
-    height: 130px;
-    margin: 1cm;
-    flex-wrap: wrap;
-  }
+
 
   .truth {
+    margin: 0.1cm;
     display: flex;       
     flex-direction: row;  
     flex-wrap: wrap;      
     gap: 10px;
+    justify-content: flex-start;
+    width: fit-content;
+    border-color: black;
+    border-width: 0.1cm;
+    border-style: solid;
   }
   
   .truth div {
+    margin: 0.1cm;
     width: 130px;
     height: 130px;
     background-color: #f6efe8;
@@ -76,24 +90,21 @@ align-items: start;
     align-items: flex-start;
   }
 
-  .dryck section {
-    background-color: #f6efe8;
-    font-size: 22px;
-    width: 130px;
-    justify-items: center;
-    flex-wrap: wrap;
-    margin: 1cm;
-    height: 130px;
-  }
-
   .truth2 {
+    margin: 0.1cm;
     display: flex;       
     flex-direction: row;  
     flex-wrap: wrap;      
     gap: 10px;
+    justify-content: flex-start;
+    width: fit-content;
+    border-color: black;
+    border-width: 0.1cm;
+    border-style: solid;
   }
   
   .truth2 div {
+    margin: 0.1cm;
     width: 130px;
     height: 130px;
     background-color: #f6efe8;
@@ -110,24 +121,23 @@ align-items: start;
     align-self: stretch;
   }
 
-  .mat section {
-    background-color: #f6efe8;
-    font-size: 22px;
-    width: 130px;
-    justify-items: center;
-    flex-wrap: wrap;
-    margin: 1cm;
-    height: 130px;
-  }
+
 
   .truth3 {
+    margin: 0.1cm;
     display: flex;       
     flex-direction: row;  
     flex-wrap: wrap;      
     gap: 10px;
+    justify-content: flex-start;
+    width: fit-content;
+    border-color: black;
+    border-width: 0.1cm;
+    border-style: solid;
   }
   
   .truth3 div {
+    margin: 0.1cm;
     width: 130px;
     height: 130px;
     background-color: #f6efe8;
@@ -144,24 +154,21 @@ align-items: start;
     align-self: stretch;
   }
 
-  .special section {
-    background-color: #f6efe8;
-    font-size: 22px;
-    width: 130px;
-    justify-items: center;
-    flex-wrap: wrap;
-    margin: 1cm;
-    height: 130px;
-  }
-
   .truth4 {
+    margin: 0.1cm;
     display: flex;       
     flex-direction: row;  
     flex-wrap: wrap;      
     gap: 10px;
+    justify-content: flex-start;
+    width: fit-content;
+    border-color: black;
+    border-width: 0.1cm;
+    border-style: solid;
   }
   
   .truth4 div {
+    margin: 0.1cm;
     width: 130px;
     height: 130px;
     background-color: #f6efe8;
