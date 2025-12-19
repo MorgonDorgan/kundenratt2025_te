@@ -114,3 +114,174 @@ a:link {
     border-width: 0.15cm;
     color: #a5b58d;
 }
+
+
+  section h2 {
+    margin: 20px;
+    }
+
+
+  .fika,
+  .dryck,
+  .mat,
+  .special {
+  flex-direction: column;
+  }
+
+  body2 {
+  margin: 0;
+  }
+
+  #wrapper2{
+    height: 100vh;
+    width: 100%;
+    grid-template-areas:
+    "h h"
+    "p c"
+    "d e"
+    "fa fa";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto 1fr 1fr;
+  background-color: #b58b63;
+  display: grid;
+  align-items: start;
+  }
+
+
+  .fika {
+    display: flex;
+    background-color: #a5b58d;
+    grid-area: p;
+    flex-wrap: wrap;
+    align-self: stretch;
+  }
+
+
+
+  .fikameny {
+    margin: 0.1cm;
+    display: flex;       
+    flex-direction: row;  
+    flex-wrap: wrap;      
+    gap: 10px;
+    justify-content: flex-start;
+    width: fit-content;
+    border-color: black;
+    border-width: 0.1cm;
+    border-style: solid;
+
+  }
+  
+  .fikameny div {
+    margin: 0.1cm;
+    width: 130px;
+    height: 130px;
+    background-color: #f6efe8;
+    display: flex;      
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dryck {
+    display: flex;
+    background-color: #a5b58d;
+    grid-area: c;
+    flex-wrap: wrap;
+    align-self: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .dryckmeny {
+    margin: 0.1cm;
+    display: flex;       
+    flex-direction: row;  
+    flex-wrap: wrap;      
+    gap: 10px;
+    justify-content: flex-start;
+    width: fit-content;
+    border-color: black;
+    border-width: 0.1cm;
+    border-style: solid;
+  }
+  
+  .dryckmeny div {
+    margin: 0.1cm;
+    width: 130px;
+    height: 130px;
+    background-color: #f6efe8;
+    display: flex;      
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mat {
+    display: flex;
+    background-color: #a5b58d;
+    grid-area: d;
+    flex-wrap: wrap;
+    align-self: stretch;
+  }
+
+
+
+  .matmeny {
+    margin: 0.1cm;
+    display: flex;       
+    flex-direction: row;  
+    flex-wrap: wrap;      
+    gap: 10px;
+    justify-content: flex-start;
+    width: fit-content;
+    border-color: black;
+    border-width: 0.1cm;
+    border-style: solid;
+  }
+  
+  .matmeny div {
+    margin: 0.1cm;
+    width: 130px;
+    height: 130px;
+    background-color: #f6efe8;
+    display: flex;      
+    align-items: center;
+    justify-content: center;
+  }
+
+  .special {
+    display: flex;
+    background-color: #a5b58d;
+    grid-area: e;
+    flex-wrap: wrap;
+    align-self: stretch;
+  }
+
+  .specialmeny {
+    margin: 0.1cm;
+    display: flex;       
+    flex-direction: row;  
+    flex-wrap: wrap;      
+    gap: 10px;
+    justify-content: flex-start;
+    width: fit-content;
+    border-color: black;
+    border-width: 0.1cm;
+    border-style: solid;
+  }
+  
+  .specialmeny div {
+    margin: 0.1cm;
+    width: 130px;
+    height: 130px;
+    background-color: #f6efe8;
+    display: flex;      
+    align-items: center;
+    justify-content: center;
+  }
+
+  .catering{
+    grid-area: fa;
+    display: flex;
+    justify-content: center;
+    background-color: #b58b63;
+}
